@@ -1,0 +1,438 @@
+body{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(153, 187, 163);
+  padding-left:10px;
+}
+
+html{
+  background-color: rgb(153, 187, 163);
+}
+
+img{
+  max-width: 100%;
+  padding-bottom: 20px
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position:sticky;
+}
+
+li{
+  display: block;
+  padding: 10px;
+  float: left;
+  border-right: 3px solid rgb(153, 187, 163);
+
+}
+
+
+a{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight:bold;
+  font-size:16px;
+  color:rgb(38, 133, 81);
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: rgb(153, 187, 163);
+  color: white;
+}
+
+/* h2{
+  display:inline-flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight:bold;
+  background-color:rgb(16, 53, 41);
+  color:#b8d7c1;
+} */
+
+h4{
+  text-decoration: underline;
+  color: rgb(16, 53, 41);
+}
+
+.navbar{
+  display:flex;
+  justify-content:flex-start;
+  border-bottom: 10px;
+  border-color: white;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.desc{
+  text-align:center;
+  background-color:rgb(38, 133, 81);
+  color:#b8d7c1;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border-radius:10px;
+  padding:5px;
+  padding-bottom:10px;
+}
+
+.desc-button{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.main{
+  text-align: center;
+}
+
+.header{
+  border-width: 10px;
+  border-color:rgb(71, 54, 131);
+}
+
+.title {
+  color:rgb(153, 187, 163);
+  background-color:rgb(16, 53, 41);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+  padding: none;
+  display:inline-block;
+}
+
+.icon-image {
+  display: block;
+  margin: auto;
+}
+
+.quali-stream{
+  display: block;
+  justify-content: space-evenly;
+}
+
+/* .quali-livestream-titles{
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 240px;
+} */
+
+.group-stage-stream{
+  display: inline-block;
+  justify-content: space-between;
+
+}
+
+.playoff-stream{
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.non-stream-videos{
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+.videos{
+  width:240px;
+  height:160px;
+}
+
+.cn-image{
+  display:flex;
+}
+
+.rsvp-desc{
+  font-weight:bold;
+  font-size: 18px;
+  width: 55%;
+  padding-right: 10px;
+  justify-content: center;
+}
+
+.rsvp-container{
+  display:flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  padding-bottom:50px;
+}
+
+.rsvp-participants{
+  width:45%;
+}
+
+#rsvp{
+  display: inline-block;
+  background-color: rgb(185, 221, 193);
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  color:rgb(31, 102, 63);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#rsvp-count {
+   background:none;
+   border:none;
+   font-size:15px
+}
+
+#rsvp-participants{
+  display: flex; 
+}
+
+#rsvp-count{
+  color:rgb(31, 102, 63);
+}
+
+#off-web-button{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:15px;
+  color:rgb(73, 115, 86);
+  background-color:rgb(221, 241, 214);
+  padding:6px;
+  border-radius: 12px;
+  border-color:none;
+}
+
+#off-web-button:hover{
+  font-weight:bold;
+}
+
+#livestream{
+  font-weight: bold;
+  color:rgb(16, 53, 41);
+}
+
+#desc-text{
+  background-color: #b8d7c100;
+}
+
+#ticket-purchase-button{
+  margin-top: 20px;
+  border-color:rgb(16, 41, 33);
+  border-radius: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color:rgb(221, 241, 214);
+  background-color:rgb(73, 115, 86);
+  padding: 12px 12px;
+}
+
+
+#ticket-purchase-button:hover{
+  font-weight:bold;
+  color:rgb(73, 115, 86);
+  background-color:rgb(221, 241, 214);
+}
+
+#team-img{
+  background-color: white;
+  display: inline-block;
+  border-left: 12px;
+  margin-left: 3px;
+}
+
+
+#theme-button{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  background-color: rgb(16, 53, 41);
+  color: rgb(221, 241, 214);
+  border-radius: 12px;
+}
+
+#team-button{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  background-color: rgb(16, 53, 41);
+  color: rgb(221, 241, 214);
+  border-radius: 12px;
+}
+
+#theme-button:hover, #team-button:hover{
+  font-weight: bold;
+}
+
+#theme-button:active{
+  background-color: rgb(221, 241, 214);
+  color: rgb(16, 53, 41);
+}
+
+#rsvp-button{
+  margin-top: 10px;
+  border-color:rgb(16, 41, 33);
+  border-radius: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  color:rgb(221, 241, 214);
+  background-color:rgb(73, 115, 86);
+}
+
+#rsvp-button:hover{
+  background-color:rgb(221, 241, 214);
+  color:rgb(73, 115, 86);
+}
+
+#not-streams, #teams{
+  color:rgb(16, 53, 41);
+}
+
+.container{
+  position: relative;
+  width: 100%;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .poster-button {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.dark-mode{
+  background-color: rgb(16, 41, 33);
+  width:100%
+}
+
+.dark-mode .navbar{
+  background-color: rgb(38, 133, 81);
+}
+
+.dark-mode a{
+  color:white;
+}
+
+.dark-mode li{
+  border-right-color: rgb(16, 41, 33);
+}
+
+.dark-mode .title{
+  background-color:rgb(153, 187, 163);
+  color:rgb(16, 41, 33);
+}
+
+/* .dark-mode .desc{
+  background-color: rgb(153, 187, 163);
+  color:rgb(24, 75, 47);
+  border-width:10px;
+  border: solid rgb(24, 75, 47);
+} */
+
+.dark-mode h4{
+  color:rgb(153, 187, 163);
+}
+
+.dark-mode h2{
+  color:rgb(153, 187, 163);
+}
+
+.dark-mode #rsvp{
+  background-color: rgb(24, 75, 47);
+  color:rgb(160, 184, 168);
+}
+
+.dark-mode #livestream, 
+.dark-mode #not-streams,
+.dark-mode #teams{
+  color: rgb(160, 184, 168);
+}
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background-color: rgb(209, 146, 146);
+}
+
+.modal{
+  display: none;
+  position: fixed;
+  z-index:3;
+
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+
+  background-color: rgb(0,0,0,0.4);
+
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-container{
+  padding:50px;
+  width:50%;
+
+  background-color: rgb(92, 156, 92);
+  color:#b8d7c1;
+  text-align: center;
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-style: solid;
+  border-width:2px;
+  border-color: rgb(57, 96, 57);
+  border-radius:12px;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-item{
+  position:relative;
+  width:40%;
+  height: 25%;
+}
+
+#quote-modal{
+  display: none;
+  position: fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  z-index:3;
+  background-color:#b8d7c12c;
+  align-items: center;
+  justify-content: center;
+}
+
+#quote-modal-text{
+  text-align:center;
+  width:50%;
+  height:25%;
+  margin:20%;
+  padding-top:20%;
+  left:0;
+  top:0;
+  background-color: azure;
+  border-radius: 12px;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:24px;
+  color:#243128;
+}
+
+.credit{
+  width:100%;
+  background-color: rgb(213, 228, 220);
+}
+
+#joker{
+  width:25%;
+  padding-left:10px;
+}
+
+#credit-text{
+  color:black;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
